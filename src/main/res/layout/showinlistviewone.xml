@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width= "wrap_content"
+    android:layout_height="wrap_content"
+    app:cardElevation="30dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/nameOfCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Date: "
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lol2"
+        android:layout_width="167dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Number Of Items Added:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lols"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="_________"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/omgs"
+        android:layout_width="56dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="_________"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.cardview.widget.CardView>

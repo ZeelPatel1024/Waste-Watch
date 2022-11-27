@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146147654412",
+    "project_id": "techomypartproject",
+    "storage_bucket": "techomypartproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146147654412:android:4848c99984166eb09a6729",
+        "android_client_info": {
+          "package_name": "com.example.technomypart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146147654412-2mdq6scsno82n2vstedfalpfipc24m1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt_W043L0xRCosvkABD6YTPope7V92WAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146147654412-2mdq6scsno82n2vstedfalpfipc24m1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

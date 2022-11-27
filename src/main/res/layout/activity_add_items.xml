@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDFAAC"
+    tools:context=".addItems">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BDFAAC"
+        tools:context=".addItems">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="322dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Find Your Item"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="159dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="104dp"
+        android:text="Find Item"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="159dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="104dp"
+        android:text="Scan Item"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="359dp"
+        android:layout_height="556dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/myshape8" />
+
+    <SearchView
+        android:layout_width="364dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="184dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewFindYourItem"
+            android:layout_width="328dp"
+            android:layout_height="448dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="248dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
